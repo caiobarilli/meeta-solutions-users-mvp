@@ -1,0 +1,12 @@
+* text=auto
+
+*.blade linguist-vendored
+*.css linguist-vendored
+*.scss linguist-vendored
+*.html linguist-vendored
+Dockerfile linguist-vendored
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
