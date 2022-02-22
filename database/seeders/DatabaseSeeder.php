@@ -66,7 +66,7 @@ class DatabaseSeeder extends Seeder
         $exempleUser->assignRole($user);
         $exempleUser->assignRole($owner);
 
-        User::factory()->count(1)->create([
+        User::factory()->count(30)->create([
             'account_id' => $account->id
         ])
         ->each(function (User $user) {

@@ -1,1 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~mdbreact/dist/css/mdb.css';
+
+.toast:not(.show) {
+    display: block!important;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
