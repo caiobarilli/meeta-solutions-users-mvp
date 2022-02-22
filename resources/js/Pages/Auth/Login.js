@@ -81,7 +81,7 @@ export default () => {
                       <LoadingButton
                         type="submit"
                         loading={processing}
-                        className="btn btn-blue position-relative"
+                        className="btn btn-purple position-relative"
                       >
                         Entrar
                       </LoadingButton>

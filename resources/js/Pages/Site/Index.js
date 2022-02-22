@@ -55,7 +55,7 @@ const Index = () => {
                 </InertiaLink>
                 e depois acesse no menu lateral o link de acesso a listagem de
                 usuários, ou
-                <InertiaLink className="inline mx-1" href={route('dashboard')}>
+                <InertiaLink className="inline mx-1" href={route('users')}>
                   clique aqui
                 </InertiaLink>
                 e seja redirecionado após o login. Caso queira entrar em contato

@@ -1,11 +1,21 @@
 .btn-blue {
-    background: #563d7c!important;
+    background: #3546db!important;
     color: white!important;
 
     &:hover {
-        background: #322348!important;
+        background: #3546db!important;
         color: white!important;
     }
+}
+
+.btn-purple {
+  background: #563d7c!important;
+  color: white!important;
+
+  &:hover {
+      background: #322348!important;
+      color: white!important;
+  }
 }
 
 .btn-spinner,

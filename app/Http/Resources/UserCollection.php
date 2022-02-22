@@ -20,6 +20,7 @@ class UserCollection extends ResourceCollection
             'email',
             'role',
             'photo',
+            'created_at',
             'deleted_at'
         );
     }

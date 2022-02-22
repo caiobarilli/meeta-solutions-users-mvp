@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import NavbarDashboard from '@/Shared/UI/NavbarDashboard';
 import SideNavbarDashboard from '@/Shared/UI/SideNavbarDashboard';
+import FlashMessages from '@/Shared/Form/FlashMessages';
 import FooterDashboard from '@/Shared/UI/FooterDashboard';
 
 export default function LayoutDashboard({ title, children }) {
@@ -15,6 +16,7 @@ export default function LayoutDashboard({ title, children }) {
           <SideNavbarDashboard />
 
           <div id="layoutSidenav_content">
+            <FlashMessages />
             {children}
             <FooterDashboard />
           </div>
